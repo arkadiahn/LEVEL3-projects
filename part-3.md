@@ -55,7 +55,7 @@ ml_pipeline/
 * The sensor should detect when new data arrives.
 * Automatically materialize downstream assets when the data changes.
 
-> Hint. You can simulate data changes by splitting the data set per your (Bike Sharing dataset), or by splitting the dataset in multiple parts (Spotify Tracks dataset)
+> Hint. You can simulate data changes by splitting the data set per year (Bike Sharing dataset), or by splitting the dataset in multiple parts (Spotify Tracks dataset)
 
 ### 5. Testing and Best practices
 
