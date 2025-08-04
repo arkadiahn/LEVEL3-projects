@@ -2,7 +2,7 @@
 Copyright 2025 Aleph Alpha GmbH and Aleph Alpha Research GmbH
 Licensed under the Apache License, Version 2.0. See LICENSE file.
 -->
-# Track Development 
+# Track Development - Additional Hints and Ideas
 **Meta-track: Building a Track**
 
 In this track, you’ll design and build a complete LEVEL3 track, based on something that actually matters. The goal is to turn a real-world challenge into a structured 4-week challenge that helps others learn something useful, relevant, and impressive.
