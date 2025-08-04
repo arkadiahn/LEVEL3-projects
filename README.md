@@ -10,6 +10,18 @@ Built a comprehensive, automated evaluation suite for a large language model. Th
 Accomplished a full cycle of model evaluation, from identifying a real-world problem to presenting a nuanced analysis of a model's strengths and weaknesses that goes far beyond a single accuracy score.
 
 This is immediately useful in a job context because it mirrors the work of a conscientious machine learning engineer. Companies are grappling with "unresolved limitations after fine-tuning" and "metric-goal misalignment". A graduate who can say, "I've built a system to identify these issues," is a far more impressive candidate. They will have a "gut feeling' for AI" and know "the possible solution space for evals".
+Best case, we will publish the results, benchmarks, and best practises on huggingface. If we deem the results to be even more impressive, we are happy to write an actual paper with the corresponding team and publish that on an AI conference.
+
+The main challenges that everyone faces, but most not solve:
+* Evaluate Results
+  * Unresolved limitations after fine-tuning
+  * Metrics are optimized, but the model continues to hallucinate, underperform, and have random validation loss and poor context understanding
+* Review Process
+  * Testing on synthetic data, lack of user centered validation results and the omission of real world testing affect applicability
+* Reasonable Next Steps in Eval
+  * Metrics fail to retect domain specific outcomes and do not represent stakeholder goals
+  * Usage of surface level metrics or wrong metrics that do not fit the use case
+
 
 ## 2. Structure the Track
 The project is broken down into four weekly modules. Each week builds on the last, culminating in a complete, working project.
