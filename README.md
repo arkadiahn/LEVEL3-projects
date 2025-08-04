@@ -37,9 +37,9 @@ This week, we'll move beyond the simplistic view of "good" and "bad" models. We'
   * The importance of domain-specific evaluation.
 
 * Challenge:
-1. Select a domain: Choose a specific, real-world scenario (e.g., a customer support chatbot for a specific industry, a tool for summarizing legal documents, a generator of "simple language" text for public services).
-1. Initial Exploration: Use a pre-trained LLM for your chosen domain.
-1. Identify "Failure" Modes: Manually probe the model to find examples of where it fails. This could be factual inaccuracies, stylistic issues, or biases.
+  1. Select a domain: Choose a specific, real-world scenario (e.g., a customer support chatbot for a specific industry, a tool for summarizing legal documents, a generator of "simple language" text for public services).
+  2. Initial Exploration: Use a pre-trained LLM for your chosen domain.
+  3. Identify "Failure" Modes: Manually probe the model to find examples of where it fails. This could be factual inaccuracies, stylistic issues, or biases.
 
 ### Week 2: Building a Custom Evaluation Dataset
 This week is all about getting your hands dirty with data. As Samu says, "Keiner liest sich Evaldatensätze durch" ("Nobody reads through eval datasets"), but we will.
