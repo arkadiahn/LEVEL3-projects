@@ -17,23 +17,18 @@ The project is broken down into four weekly modules. Each week builds on the las
 ### Week 1: The Foundations of Evaluation and Identifying a Real-World Problem
 This week, we'll move beyond the simplistic view of "good" and "bad" models. We'll start by deconstructing the limitations of popular benchmarks.
 
-Goal: Understand the pitfalls of standard benchmarks and define a specific, real-world problem to evaluate.
+* Goal: Understand the pitfalls of standard benchmarks and define a specific, real-world problem to evaluate.
 
-Topics:
+* Topics:
 
-The "overfitting on public benchmarks" problem.
+** The "overfitting on public benchmarks" problem.
+** The difference between generative MMLU and "Lock-Props".
+** The importance of domain-specific evaluation.
 
-The difference between generative MMLU and "Lock-Props".
-
-The importance of domain-specific evaluation.
-
-Challenge:
-
-Select a domain: Choose a specific, real-world scenario (e.g., a customer support chatbot for a specific industry, a tool for summarizing legal documents, a generator of "simple language" text for public services).
-
-Initial Exploration: Use a pre-trained LLM for your chosen domain.
-
-Identify "Failure" Modes: Manually probe the model to find examples of where it fails. This could be factual inaccuracies, stylistic issues, or biases.
+* Challenge:
+1. Select a domain: Choose a specific, real-world scenario (e.g., a customer support chatbot for a specific industry, a tool for summarizing legal documents, a generator of "simple language" text for public services).
+1. Initial Exploration: Use a pre-trained LLM for your chosen domain.
+1. Identify "Failure" Modes: Manually probe the model to find examples of where it fails. This could be factual inaccuracies, stylistic issues, or biases.
 
 ### Week 2: Building a Custom Evaluation Dataset
 This week is all about getting your hands dirty with data. As Samu says, "Keiner liest sich Evaldatensätze durch" ("Nobody reads through eval datasets"), but we will.
@@ -99,6 +94,48 @@ Build an Evaluation Script: Write a script that takes a model and your custom da
 Visualize the Results: Create charts and graphs to visualize your findings.
 
 Write a Final Report: Summarize your findings in a report. This report should not just present the numbers, but also offer a nuanced analysis of the model's performance in your chosen domain.
+
+
+## 3. Add Hints and Constraints
+Required Tools:
+
+Python 3.8+
+
+Hugging Face transformers, datasets, and evaluate libraries.
+
+deepeval for custom metrics.
+
+Recommended Resources:
+
+Papers:
+
+"On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?" by Bender et al.
+
+The latest papers from the "DEITY" group.
+
+Articles:
+
+"The Ultimate Guide to LLM Evaluation" by Confident AI.
+
+Tools:
+
+The Hugging Face Hub for sharing models and datasets.
+
+Weights & Biases for experiment tracking and visualization.
+
+Pitfalls to Avoid:
+
+Don't chase a single number: The goal is not to achieve a 99% on some metric, but to understand the model's behavior.
+
+Don't forget the "why": Always ask why the model is failing in a certain way.
+
+Don't underestimate the difficulty of annotation: Creating a good "golden" dataset is hard. Start small and iterate.
+
+
+## 4. Build Your Own Solution
+As the instructor, I will build a complete reference solution for this track. This solution will be shared in a private repository and will serve as a "safety net" if students get stuck. It will cover all four weeks and meet all the requirements I've laid out here. This ensures the project is feasible and provides a working example for reference.
+
+This curriculum is designed to be challenging but achievable. It will push your master's students to think critically about the AI models they build and use, and it will equip them with a set of practical skills that are in high demand in the industry. I am confident that the students who complete this track will be well-prepared for the real-world challenges of building and deploying responsible and effective AI systems.
 
 
 ![logo](./level3.png)
