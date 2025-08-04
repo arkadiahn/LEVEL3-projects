@@ -86,9 +86,9 @@ In the final week, we'll bring everything together into a professional, automate
 * Recommended Resources:
 
 * Papers/Articles:
-  * [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?] (https://faculty.washington.edu/ebender//papers/Bender-NE-ExpAI.pdf) by Bender et al.
+  * [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](https://faculty.washington.edu/ebender//papers/Bender-NE-ExpAI.pdf) by Bender et al.
   * The latest papers from the "DEITY" group. (to be provided by Aleph Alpha)
-  * [The Ultimate Guide to LLM Evaluation] (https://www.confident-ai.com/blog/how-to-evaluate-llm-applications#:~:text=In%20this%20article%2C%20as%20the%20founder%20of%20Confident,when%20building%20RAG%20applications%20that%20evaluation%20can%20solve.) by Confident AI.
+  * [The Ultimate Guide to LLM Evaluation](https://www.confident-ai.com/blog/how-to-evaluate-llm-applications#:~:text=In%20this%20article%2C%20as%20the%20founder%20of%20Confident,when%20building%20RAG%20applications%20that%20evaluation%20can%20solve.) by Confident AI.
 
 * Tools:
   * The Hugging Face Hub for sharing models and datasets.
