@@ -41,23 +41,7 @@ This week, we'll move beyond the simplistic view of "good" and "bad" models. We'
   2. Initial Exploration: Use a pre-trained LLM for your chosen domain.
   3. Identify "Failure" Modes: Manually probe the model to find examples of where it fails. This could be factual inaccuracies, stylistic issues, or biases.
 
-### Week 2: Building a Custom Evaluation Dataset
-This week is all about getting your hands dirty with data. As Samu says, "Keiner liest sich Evaldatensätze durch" ("Nobody reads through eval datasets"), but we will.
-
-*Goal: Create a high-quality, domain-specific evaluation dataset.
-
-* Topics:
-  * The problem of "not enough samples".
-  * Techniques for creating "golden" datasets.
-  * Understanding that even famous datasets like MNIST have labeling errors.
-
-* Challenge:
-  1. Data Collection: Gather a small (50-100 examples) but diverse set of data for your chosen domain.
-  2. Manual Annotation: Write "golden" outputs for your collected data. This will be your ground truth.
-  3. Augmentation: Use an LLM to generate variations of your collected data to increase the size and diversity of your dataset.
-
-
-### Week 3: Advanced Evaluation - Bias, Fairness, and Adversarial Testing
+### Week 2: Evaluation - Bias, Fairness, and Adversarial Testing
 Now we move into the really interesting and challenging aspects of evaluation. We'll actively try to break our model.
 
 * Goal: Implement tests for bias, fairness, and robustness to adversarial attacks.
@@ -72,9 +56,26 @@ Now we move into the really interesting and challenging aspects of evaluation. W
   2. Adversarial Attacks: Try to "jailbreak" your model. Can you get it to produce harmful or nonsensical content?
   3. Implement a Custom Metric: Go beyond standard metrics and create your own evaluation metric using a tool like DeepEval. This could be a metric for "simplicity of language" or "adherence to a specific format."
 
+### Week 3: Building a Custom Evaluation Dataset
+This week is all about getting your hands dirty with data. As Samu says, "Nobody reads through eval datasets", but we will.
+Ask yourself: what do I want to prove?
+
+*Goal: Create a high-quality, domain-specific evaluation dataset.
+
+* Topics:
+  * The problem of "not enough samples".
+  * Techniques for creating "golden" datasets.
+  * Understanding that even famous datasets like MNIST have labeling errors.
+
+* Challenge:
+  1. Data Collection: Gather a small (50-100 examples) but diverse set of data for your chosen domain.
+  2. Manual Annotation: Write "golden" outputs for your collected data. This will be your ground truth.
+  3. Augmentation: Use an LLM to generate variations of your collected data to increase the size and diversity of your dataset.
+
 
 ### Week 4: Automation, Reporting, and a Final Solution
 In the final week, we'll bring everything together into a professional, automated pipeline.
+We open-sourced our eval framework which can be found on [github](https://github.com/Aleph-Alpha-Research/eval-framework). Get familiar with it, then use it to your means.
 
 * Goal: Automate the entire evaluation process and present the results in a clear, insightful way.
 
@@ -114,17 +115,10 @@ In the final week, we'll bring everything together into a professional, automate
 
 
 ## 4. Build Your Own Solution
-As the instructor, I will build a complete reference solution for this track. This solution will be shared in a private repository and will serve as a "safety net" if students get stuck. It will cover all four weeks and meet all the requirements I've laid out here. This ensures the project is feasible and provides a working example for reference.
+We provide reference solutions for this track. It is shared in a private repository and will serve as a "safety net" if students get stuck. It will cover all four weeks and meet all the requirements I've laid out here. This ensures the project is feasible and provides a working example for reference.
 
-This curriculum is designed to be challenging but achievable. It will push your master's students to think critically about the AI models they build and use, and it will equip them with a set of practical skills that are in high demand in the industry. I am confident that the students who complete this track will be well-prepared for the real-world challenges of building and deploying responsible and effective AI systems.
+This curriculum is designed to be challenging but achievable. It will push students to think critically about the AI models they build and use, and it will equip them with a set of practical skills that are in high demand in the industry. 
 
+We are confident that the students who complete this track will be well-prepared for the real-world challenges of building and deploying responsible and effective AI systems.
 
 ![logo](./level3.png)
-
-## Project List
-
-| Name                                               | Description                         |
-| -------------------------------------------------- | ----------------------------------- |
-| [Track Development](./track-development/README.md) | A meta-track for developing a track |
-
-
