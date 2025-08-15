@@ -30,9 +30,24 @@ class JargonMetric(BaseMetric):
         return self.score
 
     async def a_measure(self, test_case: LLMTestCase):
-        """Async version of the measure method"""
-        # We can make this truly async if needed, for now it just wraps the sync version
-        return self.measure(test_case)
+        """Async version of the measure method that processes jargon search asynchronously"""
+        async def search_jargon(jargon, text):
+            # Simulate async work with a very small delay
+            await asyncio.sleep(0.001)
+            return bool(re.search(r'\b' + jargon + r'\b', text, re.IGNORECASE))
+        
+        # Create tasks for all jargon searches
+        tasks = [search_jargon(jargon, test_case.actual_output) for jargon in self.jargon_list]
+        
+        # Run all searches concurrently
+        results = await asyncio.gather(*tasks)
+        
+        # Process results
+        found_jargon = [jargon for jargon, found in zip(self.jargon_list, results) if found]
+        
+        self.score = 1.0 if len(found_jargon) == 0 else 0.0
+        self.reason = f"The model avoided jargon." if self.score == 1.0 else f"The model used the following jargon: {found_jargon}"
+        return self.score
 
     def is_successful(self) -> bool:
         return self.score >= self.threshold

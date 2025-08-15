@@ -32,7 +32,6 @@ def run_full_evaluation_pipeline():
         test_cases.append(test_case)
 
     # Run DeepEval for custom metrics
-    async_mode = False  # Set to True if you want to run in async mode
     deepeval_results = evaluate(test_cases, [jargon_metric])
 
     # Run standard metrics
@@ -45,7 +44,7 @@ def run_full_evaluation_pipeline():
     print(f"Average ROUGE-L Score: {rouge_scores['rougeL']:.4f}")
 
     # Extracting custom metric scores
-    avg_jargon_score = sum(test.metrics[0].score for test in deepeval_results) / len(deepeval_results)
+    avg_jargon_score = sum(result.metrics_data[0].score for result in deepeval_results.test_results) / len(deepeval_results.test_results)
     print(f"Average Jargon-Free Score: {avg_jargon_score:.4f}")
 
     # --- 4. VISUALIZATION ---
