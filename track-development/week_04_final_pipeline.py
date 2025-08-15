@@ -56,7 +56,7 @@ def run_full_evaluation_pipeline():
     ax.set_ylabel('Scores')
     ax.set_title('LLM Summarization Evaluation Results')
     ax.set_ylim(0, 1)
-    plt.savefig('evaluation_results.png')
+    plt.savefig('track-development/evaluation_results.png')
     print("\nResults chart saved to 'evaluation_results.png'")
 
 
