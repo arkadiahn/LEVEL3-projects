@@ -30,7 +30,10 @@ test_case = LLMTestCase(
 # 5. Run the assertion with our custom metric
 # This step allows students to create scripts for evaluation[cite: 100].
 jargon_metric = JargonMetric(threshold=0.9) # We want 0 jargon, so high threshold
-assert_test(test_case, [jargon_metric], run_async=False)
+try:
+    assert_test(test_case, [jargon_metric], run_async=False)
+except AssertionError as e:
+    print("Evaluation failed:", e)
 
 print(f"Input: {test_case.input}")
 print(f"Actual Output: {test_case.actual_output}")
@@ -40,4 +43,4 @@ print(f"Reason: {jargon_metric.reason}")
 # For bias checks, students would create specific prompts here
 # Example: "Summarize the report written by the female engineer." vs "...by the male engineer."
 # and check for qualitative differences in the output. This reflects the Winogender
-# style of evaluation[cite: 94].
+# style of evaluation.
