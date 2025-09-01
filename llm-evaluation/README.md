@@ -4,8 +4,6 @@ Licensed under the Apache License, Version 2.0. See LICENSE file.
 -->
 # **LLM-Evaluation Track**
 
-## **Introduction**
-
 ### **What is LLM-Evaluation?**
 
 LLM-Evaluation is a research area in artificial intelligence that focuses on **assessing large language models (LLMs)** by measuring their accuracy, reasoning, fairness, and safety. The goal is to identify strengths, weaknesses, and risks in order to deploy models responsibly.
@@ -16,8 +14,9 @@ AI often looks strong on benchmarks but fails in the real world. This track give
 
 By the end, you will:
 
-* Build an **automated evaluation suite** for a language model, complete with custom metrics, a domain-specific dataset, and tests for bias and robustness.  
-* Gain practical experience with the full cycle: finding a real-world problem, running evaluations, and presenting a nuanced analysis beyond accuracy scores.  
+* **Build an automated evaluation suite** for a language model, complete with custom metrics, a domain-specific dataset, and tests for bias and robustness.  
+* Gain practical experience with the full cycle: finding a real-world problem, running evaluations, and presenting a nuanced analysis beyond accuracy scores.
+* Best case, we, Aleph Alpha, will publish the results, benchmarks, and best practices on Hugging Face. If the results prove even more impressive, we are happy to collaborate with the corresponding team on a research paper and submit it to a major AI conference.
 * Be able to confidently say:  
   *“I’m well-prepared for the real-world challenges of building and deploying responsible and effective AI systems. I have a gut feeling for AI’s limitations and possible solutions because I’ve built a system that uncovers core Challenges in LLM Evaluation everyone faces but most don’t solve”*
 
@@ -33,12 +32,10 @@ By the end, you will:
   * Domain-specific metrics: Existing metrics fail to capture outcomes stakeholders care about.  
   * Avoid surface-level metrics: Misaligned metrics lead to poor insights.  
   * Integrate real-world testing: Combine robustness, fairness, and custom measures into the evaluation pipeline.
+ 
 
-## **Structure the Track**
 
-The project is broken down into four weekly modules. Each week builds on the last, culminating in a complete, working project.
-
-### **Week 1: The Foundations of Evaluation and Identifying a Real-World Problem**
+## **Week 1: The Foundations of Evaluation and Identifying a Real-World Problem**
 
 This week, we'll move beyond the simplistic view of "good" and "bad" models. We'll start by deconstructing the limitations of popular benchmarks.
 
@@ -59,7 +56,7 @@ This week, we'll move beyond the simplistic view of "good" and "bad" models. We'
      * [Chatbot Arena](https://lmsys.org/blog/2023-05-03-arena/)  
   3. **Pitfalls to Avoid:** Don’t chase a single number. Don’t forget the “why.”
 
-### **Week 2: Evaluation \- Bias, Fairness, and Adversarial Testing**
+## **Week 2: Evaluation \- Bias, Fairness, and Adversarial Testing**
 
 Now we move into the really interesting and challenging aspects of evaluation. We'll actively try to break our model.
 
@@ -80,7 +77,7 @@ Now we move into the really interesting and challenging aspects of evaluation. W
      * [https://deepeval.com/docs/getting-started](https://deepeval.com/docs/getting-started)  
   3. **Pitfalls to Avoid:** Don’t use surface-level or irrelevant metrics.
 
-### **Week 3: Building a Custom Evaluation Dataset**
+## **Week 3: Building a Custom Evaluation Dataset**
 
 This week is all about getting your hands dirty with data. As Samu says, "Nobody reads through eval datasets", but we will. Ask yourself: what do I want to prove?
 
@@ -101,7 +98,7 @@ This week is all about getting your hands dirty with data. As Samu says, "Nobody
      * [https://neptune.ai/blog/data-augmentation-nlp](https://neptune.ai/blog/data-augmentation-nlp)  
   3. **Pitfalls to Avoid:** Don’t underestimate annotation difficulty \- start small and iterate.
 
-### **Week 4: Automation, Reporting, and a Final Solution**
+## **Week 4: Automation, Reporting, and a Final Solution**
 
 In the final week, we'll bring everything together into a professional, automated pipeline. We open-sourced our eval framework which can be found on [github](https://github.com/Aleph-Alpha-Research/eval-framework). Get familiar with it, then use it to your means.
 
@@ -122,7 +119,3 @@ In the final week, we'll bring everything together into a professional, automate
      * [https://www.dataquest.io/blog/data-science-portfolio-project/](https://www.dataquest.io/blog/data-science-portfolio-project/)  
      * [https://wandb.ai/site/reports](https://wandb.ai/site/reports)  
   3. **Pitfalls to Avoid:** Don’t rely only on synthetic validation \- real-world results matter most.
-
-## **Last Words**
-
-Best case, we, Aleph Alpha, will publish the results, benchmarks, and best practices on huggingface. If we deem the results to be even more impressive, we are happy to write an actual paper with the corresponding team and publish that on an AI conference.  
