@@ -39,8 +39,7 @@ As you work on your track, regularly save your changes:
 ### 4. Submit Your Track
 When your track is complete:
 - Go to your forked repository on GitHub
-- Click "Contributea" → "Open pull request"
-- Make sure to select your track branch (not main) as the source
+- Click "Compare & pull request"
 - Add a clear title and description of your track
 - Submit the pull request for review
 
