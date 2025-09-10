@@ -22,57 +22,24 @@ This "Track Development Project" project will also act as a **template for what 
 
 ![image](./image.jpeg)
 
-## Setup: GitHub Workspace
-
-Before diving into track development, set up your workspace. This mirrors how software projects are managed.
-
-### 1. Fork the Repository
-- Go to https://github.com/arkadiahn/LEVEL3-projects
-- Click the "Fork" button in the top-right corner
-- This creates your own copy of the project
-
-### 2. Create Your Track
-- Clone your forked repository to your computer
-- Create a new branch for your track (e.g., `git checkout -b my-track-name`)
-- Create a new folder for your track (e.g., `my-track-name/`)
-- Add your track's `README.md` file following this template
-- Include any additional files your track needs
-
-### 3. Save Your Progress
-As you work on your track, regularly save your changes:
-- **Commit** your work with descriptive messages (e.g., "Add Week 1 structure" or "Complete track overview")
-- **Push** your commits to your branch on your forked repository
-- This ensures your progress is backed up and visible
-
-### 4. Submit Your Track
-When your track is complete:
-- Go to your forked repository on GitHub
-- Click "Compare & pull request"
-- Add a clear title and description of your track
-- Submit the pull request for review
-
-### 5. Review Process
-- We'll review your track and provide feedback
-- Make any requested changes in your branch
-- Once approved, your track will be merged into the main repository
-
-> 💡 **Need Help?** "If anything is unclear, we're happy to guide you through the process. Just reach out!
-
 ## Developing Track
 
-## 1. Define the Topic
+## 1. Setup and define the Topic
 
-Start by identifying a topic that reflects a **real problem or process**. Something people genuinely care about and that shows up in daily engineering or product work.
+1. **Fork the repository** and create a new folder for your track. Be sure to include a `README.md` file within it.  
 
-Your topic should be:  
-- **Job-relevant** (it reflects real-world scenarios)  
-- **Teachable in 4 weeks**  
-- **Impressive** (you’d be impressed if someone brought it up in an interview)
+2. **Update the main table:** Add your track as a new entry at the bottom of the table in the main [README](/README.md).  
 
+3. **Choose your topic wisely:** Focus on a subject that highlights a **real-world problem or process**—something people truly care about and encounter in everyday engineering or product work.  
 
-Then, write a short introduction that answers:  
-- What will the participant have built or accomplished by the end of the 4 weeks?  
-- Why is this useful or relevant in a real job context?
+    Your topic should be:  
+    - **Job-relevant** (it reflects real-world scenarios)  
+    - **Teachable in 4 weeks**  
+    - **Impressive** (you’d be impressed if someone brought it up in an interview)
+
+4. **Write a short introduction** at the top of your Readme that clearly answers:  
+   - What will participants have built or accomplished by the end of the 4 weeks?  
+   - Why is this useful or relevant in a real job context?  
 
 ## 2. Structure the Track
 
@@ -83,17 +50,16 @@ Break the project into **four incremental parts**, each representing one week of
 
 > 💡 Tip: Keep the scope realistic. If Week 1 takes 3 days in the real world, that’s fine — not everything needs to be perfectly even.
 
-
-
-## 3. Add Hints and Constraints
-
 Include helpful resources and constraints for participants:  
 - **Links** to articles, repos, docs, or internal tools  
 - **Hints** about pitfalls to avoid  
 - **Restrictions**: required tools, libraries, languages, frameworks, etc.
-
 > ⚠️ You don't need to explain the theory. The goal is to **save time and reduce frustration**, not write a textbook.
 
+## 3. Submission
+
+Create a pull request targeting the `development` branch.  
+Our team will review your track, share feedback, and may make small adjustments before merging it into `main`.  
 
 ## 4. Build Your Own Solution
 
