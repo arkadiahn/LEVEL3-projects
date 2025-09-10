@@ -22,20 +22,24 @@ This "Track Development Project" project will also act as a **template for what 
 
 ![image](./image.jpeg)
 
+## Developing Track
 
-## 1. Define the Topic
+## 1. Setup and define the Topic
 
-Start by identifying a topic that reflects a **real problem or process**. Something people genuinely care about and that shows up in daily engineering or product work.
+1. **Fork the repository** and create a new folder for your track. Be sure to include a `README.md` file within it.  
 
-Your topic should be:  
-- **Job-relevant** (it reflects real-world scenarios)  
-- **Teachable in 4 weeks**  
-- **Impressive** (you’d be impressed if someone brought it up in an interview)
+2. **Update the main table:** Add your track as a new entry at the bottom of the table in the main [README](/README.md).  
 
+3. **Choose your topic wisely:** Focus on a subject that highlights a **real-world problem or process**—something people truly care about and encounter in everyday engineering or product work.  
 
-Then, write a short introduction that answers:  
-- What will the participant have built or accomplished by the end of the 4 weeks?  
-- Why is this useful or relevant in a real job context?
+    Your topic should be:  
+    - **Job-relevant** (it reflects real-world scenarios)  
+    - **Teachable in 4 weeks**  
+    - **Impressive** (you’d be impressed if someone brought it up in an interview)
+
+4. **Write a short introduction** at the top of your Readme that clearly answers:  
+   - What will participants have built or accomplished by the end of the 4 weeks?  
+   - Why is this useful or relevant in a real job context?  
 
 ## 2. Structure the Track
 
@@ -46,17 +50,16 @@ Break the project into **four incremental parts**, each representing one week of
 
 > 💡 Tip: Keep the scope realistic. If Week 1 takes 3 days in the real world, that’s fine — not everything needs to be perfectly even.
 
-
-
-## 3. Add Hints and Constraints
-
 Include helpful resources and constraints for participants:  
 - **Links** to articles, repos, docs, or internal tools  
 - **Hints** about pitfalls to avoid  
 - **Restrictions**: required tools, libraries, languages, frameworks, etc.
-
 > ⚠️ You don't need to explain the theory. The goal is to **save time and reduce frustration**, not write a textbook.
 
+## 3. Submission
+
+Create a pull request targeting the `development` branch.  
+Our team will review your track, share feedback, and may make small adjustments before merging it into `main`.  
 
 ## 4. Build Your Own Solution
 
