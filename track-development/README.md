@@ -74,12 +74,12 @@ This "Track Development Project" will also act as a **template for what a good L
 
 6. **Write a short introduction** at the top of your Readme that clearly answers:  
    - What is the problem?
-   - What will participants have built or accomplished by the end of the 4 weeks to solve this problem?
+   - What will participants have built or accomplished by the end of the track duration to solve this problem?
    - Why is this useful or relevant in a real job context?  
 
 ### 2. Structure the Track
 
-Break the project into **four incremental parts**, each representing one week of work. Each week should have a clear, achievable goal. All weeks need to be connected or built upon each other, and lead toward a final, working deliverable in Week 4.
+Break the project into **four incremental parts**, each representing one week of work. Each week should have a clear, achievable goal. All weeks need to be connected or built upon each other, and lead toward a final, working deliverable in the end of the track.
 > 💡 Tip: Keep the scope realistic. If Week 1 takes 3 days in the real world, that's fine — not everything needs to be perfectly even. And the appointment for mentor review can be flexible.
 
 1. **Week structure:** Create **4 weeks as mandatory** content, and optionally **2 additional weeks as bonus** for students who want to go deeper into the topic.
