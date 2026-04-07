@@ -39,9 +39,7 @@ Participants will:
 
 ---
 
-## Week 1 – Foundations & AAS Infrastructure
-
-### Phase 1 – Introduction to Digital Twins & AAS
+## Phase 1 – Introduction to Digital Twins & AAS
 
 Participants begin by understanding the fundamental concepts behind Digital Twins and the AAS standard.
 
@@ -61,7 +59,7 @@ Participants begin by understanding the fundamental concepts behind Digital Twin
 
 Participants will explore existing AAS examples and understand how structured data is represented in practice.
 
-#### Q&A Session
+### Q&A Session
 
 ---
 
@@ -114,11 +112,8 @@ This introduces a key real-world concept: **service discovery in distributed sys
 
 #### Phase 2 Review
 
-## Week 2 – Interaction, Automation & Security
 
----
-
-### Phase 3 – Secure AAS Communication & Data Exchange
+## Phase 3 – Secure AAS Communication & Data Exchange
 
 In this phase, participants extend their systems into distributed environments.
 
@@ -150,16 +145,6 @@ Participants implement security mechanisms to protect their systems.
   - Write permissions  
 - Enforcing secure communication between teams  
 
-
-#### Automation with Python
-
-- Developing scripts to interact with AAS systems via REST APIs  
-- Automating operations such as:
-  - Uploading AASX files  
-  - Modifying submodels  
-  - Retrieving AAS data  
-
-
 #### System Design & Architecture
 
 - Creating a complete architecture diagram of the system  
@@ -168,7 +153,16 @@ Participants implement security mechanisms to protect their systems.
   - Component interaction  
   - Security boundaries  
 
-#### Phase 3 Review
+
+#### Bonus: Automation with Python
+
+- Developing scripts to interact with AAS systems via REST APIs  
+- Automating operations such as:
+  - Uploading AASX files  
+  - Modifying submodels  
+  - Retrieving AAS data  
+
+### Phase 3 Review
 
 
 ## Final Deliverables
