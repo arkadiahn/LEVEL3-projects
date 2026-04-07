@@ -15,7 +15,7 @@ Participants will move beyond theory and build a **fully functional AAS infrastr
 By the end of the course, participants will have designed and operated a real-world AAS environment, reflecting how modern industrial platforms are built and used.
 
 
-![AAS Digital Twin Infrastructure](https://gitlab-test.cloud.schunk.com/technology-factory/42-students-ipai/LEVEL3-projects/-/blob/main/aas-digital-twin-infrastructure/aas.png?ref_type=heads)
+![AAS Digital Twin Infrastructure](https://gitlab-test.cloud.schunk.com/technology-factory/42-students-ipai/LEVEL3-projects/-/raw/main/aas-digital-twin-infrastructure/aas.png)
 
 ---
 
