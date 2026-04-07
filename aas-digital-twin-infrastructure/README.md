@@ -25,8 +25,8 @@ Participants will:
 
 - Understand the concept of **Digital Twins** and their role in modern industry  
 - Gain in-depth knowledge of the **Asset Administration Shell (AAS)** architecture  
-- Design and implement **AAS shells and submodels**, including Technical Nameplates  
 - Build and operate a **complete AAS infrastructure** using Docker and BaSyx  
+- Design and implement **AAS shells and submodels**, including Technical Nameplates  
 - Generate and manage **AASX files** programmatically  
 - Store and retrieve AAS data using **MongoDB**  
 - Enable **communication between distributed AAS systems**  
@@ -61,6 +61,8 @@ Participants begin by understanding the fundamental concepts behind Digital Twin
 
 Participants will explore existing AAS examples and understand how structured data is represented in practice.
 
+#### Q&A Session
+
 ---
 
 ### Phase 2 – Building Your Own AAS Infrastructure
@@ -75,7 +77,6 @@ Participants move from theory to implementation by designing and deploying their
   - Submodel Repository  
 - Building the system manually using **Docker Compose**  
 - Integrating **MongoDB** as a persistence layer  
-
 
 
 #### System Validation
@@ -111,6 +112,7 @@ This introduces a key real-world concept: **service discovery in distributed sys
 - Storing and retrieving AAS data in MongoDB  
 - Understanding how AAS data is managed at the storage level  
 
+#### Phase 2 Review
 
 ## Week 2 – Interaction, Automation & Security
 
@@ -165,6 +167,8 @@ Participants implement security mechanisms to protect their systems.
   - Data flow  
   - Component interaction  
   - Security boundaries  
+
+#### Phase 3 Review
 
 
 ## Final Deliverables
