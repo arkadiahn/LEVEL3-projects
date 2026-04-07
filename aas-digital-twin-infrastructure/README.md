@@ -85,10 +85,14 @@ Participants move from theory to implementation by designing and deploying their
 
 #### AAS Modeling and Creation
 
-- Designing and implementing a **Technical Nameplate Submodel**  
-- Creating AAS shells and linking submodels via REST APIs  
+- Choose a product from your company and find its nameplate data.
+- Search the specification for the submodel **Digital Nameplate** on https://smt-repo.admin-shell-io.com/
+- Map your product data to the Digital Nameplate Submodel.
 
+#### AASX File Generation
 
+- Creating structured JSON representations of submodels  
+- Converting JSON into **AASX files**  
 
 #### AAS Registry Usage (Core Industry Concept)
 
@@ -98,17 +102,14 @@ Participants move from theory to implementation by designing and deploying their
 
 This introduces a key real-world concept: **service discovery in distributed systems**.
 
-
-#### AASX File Generation
-
-- Creating structured JSON representations of submodels  
-- Converting JSON into **AASX files** using the BaSyx SDK  
-
-
 #### Data Persistence
 
 - Storing and retrieving AAS data in MongoDB  
 - Understanding how AAS data is managed at the storage level  
+
+#### Bonus: BaSyx SDK
+
+- Create your AASX file using the BaSyx SDK
 
 #### Phase 2 Review
 
