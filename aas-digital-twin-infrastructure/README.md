@@ -111,7 +111,7 @@ This introduces a key real-world concept: **service discovery in distributed sys
 
 #### Bonus: BaSyx SDK
 
-- Create your AASX file using the BaSyx SDK
+- Create your AASX file using a [BaSyx SDK](https://github.com/eclipse-basyx/basyx-python-sdk)
 
 ### Phase 2 Review
 
