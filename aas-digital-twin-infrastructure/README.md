@@ -50,7 +50,7 @@ Participants begin by understanding the fundamental concepts behind Digital Twin
 - Structure of an AAS:
   - Asset  
   - AAS Shell  
-  - Submodels  
+  - Submodels
   - Submodel Elements  
 - Introduction to common industrial use cases:
   - Digital Product Passport  
@@ -63,11 +63,11 @@ Participants will explore existing AAS examples and understand how structured da
 
 ---
 
-### Phase 2 – Building Your Own AAS Infrastructure
+## Phase 2 – Building Your Own AAS Infrastructure
 
 Participants move from theory to implementation by designing and deploying their own AAS system.
 
-#### AAS Infrastructure Setup
+### AAS Infrastructure Setup
 
 - Understanding the architecture of Eclipse BaSyx:
   - AAS Server  
@@ -77,24 +77,26 @@ Participants move from theory to implementation by designing and deploying their
 - Integrating **MongoDB** as a persistence layer  
 
 
-#### System Validation
+### System Validation
 
 - Verifying service health and logs  
-- Accessing and interacting with the AAS system through the web UI and APIs  
+- Accessing and interacting with the AAS system through the web UI and APIs
+- uploading an example AAS file to the server.
 
 
-#### AAS Modeling and Creation
+### AAS Modeling and Creation
 
-- Choose a product from your company and find its nameplate data.
-- Search the specification for the submodel **Digital Nameplate** on https://smt-repo.admin-shell-io.com/
+- Choose a product from your company [Or from Schunk](https://schunk.com/de/de) and find its nameplate data.
+- Search the specification for the AAS submodel **Digital Nameplate** on https://smt-repo.admin-shell-io.com/
 - Map your product data to the Digital Nameplate Submodel.
 
-#### AASX File Generation
+### AASX File Generation
 
 - Creating structured JSON representations of submodels  
-- Converting JSON into **AASX files**  
+- Converting JSON into **AASX files**
+- Upload the files to the server.
 
-#### AAS Registry Usage (Core Industry Concept)
+### AAS Registry Usage (Core Industry Concept)
 
 - Registering AAS instances in the **AAS Registry**  
 - Discovering AAS dynamically via the Registry  
@@ -102,7 +104,7 @@ Participants move from theory to implementation by designing and deploying their
 
 This introduces a key real-world concept: **service discovery in distributed systems**.
 
-#### Data Persistence
+### Data Persistence
 
 - Storing and retrieving AAS data in MongoDB  
 - Understanding how AAS data is managed at the storage level  
@@ -111,8 +113,9 @@ This introduces a key real-world concept: **service discovery in distributed sys
 
 - Create your AASX file using the BaSyx SDK
 
-#### Phase 2 Review
+### Phase 2 Review
 
+---
 
 ## Phase 3 – Secure AAS Communication & Data Exchange
 
@@ -120,15 +123,14 @@ In this phase, participants extend their systems into distributed environments.
 
 Each team operates its own AAS infrastructure and enables communication between systems.
 
----
 
-#### Distributed AAS Systems
+### Distributed AAS Systems
 
 - Running independent AAS servers per team  
 - Establishing communication between systems via REST APIs  
 
 
-#### AAS Data Exchange
+### AAS Data Exchange
 
 - Sending and receiving AAS and Submodels between servers  
 - Implementing workflows for:
@@ -136,7 +138,7 @@ Each team operates its own AAS infrastructure and enables communication between 
   - Sharing submodels across systems  
 
 
-#### Authentication & Authorization
+### Authentication & Authorization
 
 Participants implement security mechanisms to protect their systems.
 
@@ -144,16 +146,16 @@ Participants implement security mechanisms to protect their systems.
 - Defining access rules:
   - Read-only access  
   - Write permissions  
-- Enforcing secure communication between teams  
+- Enforcing secure communication between teams
+- Extra : Role-based access control (RBAC)
 
-#### System Design & Architecture
+### System Design & Architecture
 
 - Creating a complete architecture diagram of the system  
 - Visualizing:
   - Data flow  
   - Component interaction  
   - Security boundaries  
-
 
 #### Bonus: Automation with Python
 
@@ -165,6 +167,7 @@ Participants implement security mechanisms to protect their systems.
 
 ### Phase 3 Review
 
+---
 
 ## Final Deliverables
 
