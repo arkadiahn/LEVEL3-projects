@@ -14,3 +14,4 @@ List of all the LEVEL3 projects.
 | [Build a Cloud](./build-a-cloud/README.md)         | Design and implement scalable cloud infrastructure             |
 | [LLM Evaluation](./llm-evaluation/README.md)       | Automate AI evaluations bridging benchmarks and real-world use |
 | [Data Intelligence](./data-intelligence/README.md) | Build production-grade data intelligence platforms with lakehouse architecture |
+| [AAS Digital Twin](./aas-digital-twin-infrastructure/README.md) | Setting up and exchanging digital twin information |
