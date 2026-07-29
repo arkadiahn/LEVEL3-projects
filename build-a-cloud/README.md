@@ -59,7 +59,7 @@ Design and implement a Platform-as-a-Service offering on top of Kubernetes.
 ### Scope
 1. **Understanding Kubernetes Concepts**
    - Infrastructure Components: Control Plane and Worker Nodes
-2. **SKE Cluster Creation:** Using the STACKIT Terraform Provider to provision an SKE cluster
+2. **SKE Cluster Creation:** Using the STACKIT Terraform Provider to provision an SKE cluster (`g1a.2d` flavor / 1 node min. / 2 nodes max)
 3. **PaaS Product Implementation (e.g., Managed Database):** Design and technical implementation of a simple PaaS service
    - **Operator Deployment:** Provisioning of a Kubernetes Operator
    - **Product Component Management:** Utilization of Custom Resources (CRs) for provisioning and managing product components
