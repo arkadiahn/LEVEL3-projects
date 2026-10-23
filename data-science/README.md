@@ -8,6 +8,8 @@ Rather than treating each technique in isolation, this track approaches data sci
 
 By the end of the track, you will have built a production-style demand forecasting system that connects raw sales data to actionable, monitored predictions.
 
+![image](./image.png)
+
 ## What You Will Build
 
 - A unified cleaned `.parquet` dataset with market-informed exploratory analysis
